@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <!-- Useful meta tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="robots" content="index, follow, noodp">
+    <meta name="googlebot" content="index, follow">
+    <meta name="google" content="notranslate">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="icon" href="">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet" />
+    
+    <title>Home</title>
+</head>
+<body>
+		<!-- HEADER START -->
+		<header id="header">
+			<div class="container">
+				<!-- FIRST ROW START -->
+				<div class="row between-xs middle-xs">
+					<!-- BURGER START -->
+					<div class="col-lg-3 col-md-6">
+						<div class="burger" onclick="burger()">	
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+					</div>
+					<!-- BURGER END -->
+	
+					<!-- LOGO START -->
+					<a href="index.html" class="col-lg-2 col-md-6 col-ms-6 col-xs-6 logo center-lg end-md end-xs end-xs">
+	
+						<img src="img/logo-part-1.png" alt="">
+						<span class="logo-part-2">blog</span>
+					</a>
+					<!-- LOGO END -->
+					
+					<!-- SOCIAL NAV START -->
+					<div class="col-xs-3 social-nav end-xs middle-xs">
+						<ul>
+							<li><a href="#"><i class="fas fa-rss"></i></a></li>
+							<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fab fa-tumblr"></i></a></li>
+							<li><a href="#"><i class="fab fa-facebook"></i></a></li>
+							<li><a href="#"><i class="fas fa-search"></i></a></li>
+						</ul>
+					</div>
+					<!-- SOCIAL NAV END -->
+				</div>
+				<!-- FIRST ROW END -->
+				
+				<!-- SECOND ROW START -->
+				<div class="row burger-menu">
+					<!-- BURGER MENU START -->
+					<ul>
+						<li><a href="index.html">home</a></li>
+						<li><a href="post-list.html">post lists</a></li>
+						<li><a href="aboutme.html">about me</a></li>
+						<li><a href="#">contact us</a></li>
+						<!-- SOCIAL MENU START -->
+						<li>
+							<div class="social-nav">
+								<ul class="center-xs">
+									<li><a href="#"><i class="fas fa-rss"></i></a></li>
+									<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+									<li><a href="#"><i class="fab fa-tumblr"></i></a></li>
+									<li><a href="#"><i class="fab fa-facebook"></i></a></li>
+									<li><a href="#"><i class="fas fa-search"></i></a></li>
+								</ul>
+							</div>
+						</li>
+						<!-- SOCAL MENU END -->
+					</ul>
+					<!-- BURGER MENU END -->
+				</div>
+				<!-- SECOND ROW END -->
+			</div>
+		</header>
+		<!-- HEADER END -->
+		
+		<!-- MAIN START -->
+		<section id="main">
+			<!-- BACKGROUND IMG TEXTBUTTONS -->
+			<div class="back">
+				<div class="text">
+					<span>Latest News</span>
+					<h1>
+						Body Building best <br>
+						for you health
+					</h1>
+				</div>
+				<div class="buttons">
+					<div class="squares">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+					<div class="arrows">
+						<a href="" data-content="first-arrow"><i class="fas fa-arrow-left"></i></a>
+						<span>Featured Article</span>
+						<a href="" data-content="second-arrow"><i class="fas fa-arrow-right"></i></a>
+					</div>
+				</div>
+			</div>
+			<!-- END BACKGROUND IMG TEXTBUTTONS -->
+			
+			<!-- START FORM -->
+			<div class="container">
+				<form class="row form center-xs">
+					<h2 class="center-xs col-lg-2 col-ms-2 col-ms-12 col-xs-12">
+						Signup to Newsletter
+					</h2>
+					<div class="col-lg-4 col-md-4 col-ms-12 col-ms-12">
+						<input type="text" name="name" placeholder="your name">
+					</div>
+	
+					<div class="col-lg-4 col-md-4 col-ms-12 col-ms-12">
+						<input type="text" name="email" placeholder="your email address">
+					</div>
+	
+					<button type="submit" class="col-lg-2 col-md-2 col-ms-12 col-ms-12">subscribe now</button>
+				</form>
+			</div>
+		</section>
+		<!-- MAIN END -->
+	
+	<div class="container">
+		<div class="row reverse">
+			<!-- START RIGHT MENU -->
+			<aside id="aside" class=" col-xs-12 col-sm-12 col-md-3 col-md-3 ">
+				<div class="search">
+					<input type="text" placeholder="search">
+					<button type="sumbit">
+						<i class="fas fa-search"></i>
+					</button>
+				</div>
+				<div class="aside-item">
+					<div class="item-img">
+						<img src="" alt="">
+					</div>
+					<h2 onclick="itemList(this)">Categories</h2>
+					<div class="item-list item-list-height">
+						<ul>
+							<li><a class="list-link" href="#">
+								<span class="type">lifestyle</span>
+								<span class="quantity">98</span>
+							</a></li>
+							<li><a class="list-link" href="#">
+								<span class="type">audio</span>
+								<span class="quantity">98</span>
+							</a></li>
+							<li><a class="list-link" href="#">
+								<span class="type">gallery</span>
+								<span class="quantity">98</span>
+							</a></li>
+							<li><a class="list-link" href="#">
+								<span class="type">image</span>
+								<span class="quantity">98</span>
+							</a></li>
+							<li><a class="list-link" href="#">
+								<span class="type">standart</span>
+								<span class="quantity">98</span>
+							</a></li>
+							<li><a class="list-link" href="#">
+								<span class="type">status</span>
+								<span class="quantity">98</span>
+							</a></li>
+							<li><a class="list-link" href="#">
+								<span class="type">video</span>
+								<span class="quantity">98</span>
+							</a></li>
+							<!-- <li>
+								<ol class="social-menu">
+									<li><a href="#"><i class="fas fa-rss"></i></a></li>
+									<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+									<li><a href="#"><i class="fab fa-tumblr"></i></a></li>
+									<li><a href="#"><i class="fab fa-facebook"></i></a></li>
+									<li><a href="#"><i class="fas fa-search"></i></a></li>
+								</ol>
+							</li> -->
+						</ul>
+					</div>
+				</div>
+				<div class="aside-item">
+					<div class="item-img">
+						<img src="" alt="">
+					</div>
+					<h2 onclick="itemList(this)">Latest Post</h2>
+					<div class="item-list item-list-height">
+						<ul>
+							<li><a class="list-link" href="#">
+								<div class="img">
+									<img src="" alt="">
+								</div>
+								<div class="text">
+									<h3>
+										jurney towards a lifestyle
+									</h3>
+									<span class="date">
+										Jan. 16 2015
+									</span>
+									<span class="likes">
+										Like 255
+									</span>
+								</div>
+							</a></li>
+							<li><a class="list-link" href="#">
+								<div class="img">
+									<img src="" alt="">
+								</div>
+								<div class="text">
+									<h3>
+										jurney towards a lifestyle
+									</h3>
+									<span class="date">
+										Jan. 16 2015
+									</span>
+									<span class="likes">
+										Like 255
+									</span>
+								</div>
+							</a></li>
+							<li><a class="list-link" href="#">
+								<div class="img">
+									<img src="" alt="">
+								</div>
+								<div class="text">
+									<h3>
+										jurney towards a lifestyle
+									</h3>
+									<span class="date">
+										Jan. 16 2015
+									</span>
+									<span class="likes">
+										Like 255
+									</span>
+								</div>
+							</a></li>
+							<li><a class="list-link" href="#">
+								<div class="img">
+									<img src="" alt="">
+								</div>
+								<div class="text">
+									<h3>
+										jurney towards a lifestyle
+									</h3>
+									<span class="date">
+										Jan. 16 2015
+									</span>
+									<span class="likes">
+										Like 255
+									</span>
+								</div>
+							</a></li>
+							<li><a class="list-link" href="#">
+								<div class="img">
+									<img src="" alt="">
+								</div>
+								<div class="text">
+									<h3>
+										jurney towards a lifestyle
+									</h3>
+									<span class="date">
+										Jan. 16 2015
+									</span>
+									<span class="likes">
+										Like 255
+									</span>
+								</div>
+							</a></li>
+							<li>
+								<ol class="social-menu">
+									<li><a href="#"><i class="fas fa-rss"></i></a></li>
+									<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+									<li><a href="#"><i class="fab fa-tumblr"></i></a></li>
+									<li><a href="#"><i class="fab fa-facebook"></i></a></li>
+									<li><a href="#"><i class="fas fa-search"></i></a></li>
+								</ol>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</aside>			
+			<!-- END RIGHT MENU -->
+
+			<!-- START POSTS -->
+			<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
+				<section id="posts">
+					<div class="container-0">
+						<div class="row between-xs">
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+								<!-- CARD START -->
+								<div class="card">
+									<div class="card-img"></div>
+									<div class="type">
+										<i class="fas fa-pencil-alt"></i>
+									</div>
+									
+									<div class="card-info">
+
+										<span class="tag">Travelling</span>
+
+										<h2>Travel besT Adventure</h2>
+
+										<span class="date">January 25, 2016</span>
+
+										<p class="info-text">
+											Lorem ipsum doloirs sit amet, csatetur adipisicin, sed does eiusmod tehampor incididunt uts laboasre et dolhvaliqua. Ut enim  vem, nostrasuaations ullamco labiosi ut saaliquip exoi asea comoodo Disco choice is the have great work.
+										</p>
+
+										<a href="detail.html" class="card-btn">read more</a>
+
+										<div class="card-footer">
+											<p class="comments">
+												<i class="fas fa-comments"></i>	
+												<span class="comments-number">no</span>
+												comment				
+											</p>
+											<ul class="card-social">
+												<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+												<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+												<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+												<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<!-- CARD END -->
+
+								<!-- CARD START -->
+								<div class="card">
+									<!-- <div class="card-img"></div> -->
+									<div class="card-gallery row">
+										<div class="gallery-img col-lg-4 col-md-4 col-sm-6 col-xs-12">
+											<img src="" alt="">
+										</div>
+										<div class="gallery-img col-lg-4 col-md-4 col-sm-6 col-xs-12">
+											<img src="" alt="">
+										</div>
+										<div class="gallery-img col-lg-4 col-md-4 col-sm-6 col-xs-12">
+											<img src="" alt="">
+										</div>
+										<div class="gallery-img col-lg-4 col-md-4 col-sm-6 col-xs-12">
+											<img src="" alt="">
+										</div>
+										<div class="gallery-img col-lg-4 col-md-4 col-sm-6 col-xs-12">
+											<img src="" alt="">
+										</div>
+										<div class="gallery-img col-lg-4 col-md-4 col-sm-6 col-xs-12">
+											<img src="" alt="">
+										</div>
+									</div>
+									<div class="type">
+										<i class="fas fa-pencil-alt"></i>
+									</div>
+									<div class="card-info">
+
+										<span class="tag">Travelling</span>
+
+										<h2>Travel besT Adventure</h2>
+
+										<span class="date">January 25, 2016</span>
+
+										<p class="info-text">
+											Lorem ipsum doloirs sit amet, csatetur adipisicin, sed does eiusmod tehampor incididunt uts laboasre et dolhvaliqua. Ut enim  vem, nostrasuaations ullamco labiosi ut saaliquip exoi asea comoodo Disco choice is the have great work.
+										</p>
+
+										<a href="#" class="card-btn">read more</a>
+
+										<div class="card-footer">
+											<p class="comments">
+												<i class="fas fa-comments"></i>	
+												<span class="comments-number">no</span>
+												comment				
+											</p>
+											<ul class="card-social">
+												<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+												<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+												<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+												<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<!-- CARD END -->
+
+								<!-- CARD START -->
+								<div class="card">
+									<div class="type">
+										<i class="fas fa-pencil-alt"></i>
+									</div>
+									<div class="card-info">
+
+										<span class="tag">Travelling</span>
+
+										<h2>Travel besT Adventure</h2>
+
+										<span class="date">January 25, 2016</span>
+
+										<p class="info-text">
+											Lorem ipsum doloirs sit amet, csatetur adipisicin, sed does eiusmod tehampor incididunt uts laboasre et dolhvaliqua. Ut enim  vem, nostrasuaations ullamco labiosi ut saaliquip exoi asea comoodo Disco choice is the have great work.
+										</p>
+
+										<a href="#" class="card-btn">read more</a>
+
+										<div class="card-footer">
+											<p class="comments">
+												<i class="fas fa-comments"></i>	
+												<span class="comments-number">no</span>
+												comment				
+											</p>
+											<ul class="card-social">
+												<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+												<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+												<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+												<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<!-- CARD END -->
+
+								<!-- CARD START -->
+								<div class="card-quote">
+									<div class="type">
+										<i class="fas fa-pencil-alt"></i>
+									</div>
+									<p class="quote-text">
+										It's about having an actives lifestyles, staying of’shealthy powers, and making the right decisions. Life is bes about balance. Not everybody wants to run a marathon, but we extra have a now days flight of stairs.
+									</p>
+									<p class="quote-link">
+										Apolo Ohno
+									</p>
+								</div>
+								<!-- CARD END -->
+								
+								<!-- CARD START -->
+								<div class="card">
+									<div class="card-img"></div>
+									<div class="type">
+										<i class="fas fa-pencil-alt"></i>
+									</div>
+									
+									<div class="card-info">
+
+										<span class="tag">Travelling</span>
+
+										<h2>Travel besT Adventure</h2>
+
+										<span class="date">January 25, 2016</span>
+
+										<p class="info-text">
+											Lorem ipsum doloirs sit amet, csatetur adipisicin, sed does eiusmod tehampor incididunt uts laboasre et dolhvaliqua. Ut enim  vem, nostrasuaations ullamco labiosi ut saaliquip exoi asea comoodo Disco choice is the have great work.
+										</p>
+
+										<a href="#" class="card-btn">read more</a>
+
+										<div class="card-footer">
+											<p class="comments">
+												<i class="fas fa-comments"></i>	
+												<span class="comments-number">no</span>
+												comment				
+											</p>
+											<ul class="card-social">
+												<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+												<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+												<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+												<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<!-- CARD END -->
+
+								<!-- CARD START -->
+								<div class="card-quote">
+									<div class="type">
+										<i class="fas fa-pencil-alt"></i>
+									</div>
+									<a class="quote-link">
+										<p>freebranders.com</p>
+										https://dribbble.com/hots/2442963-Blog-Ui-Kit-1170px-grid-ready/attachments/475369
+									</a>
+								</div>
+								<!-- CARD END -->
+								
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+			<!-- END POSTS -->
+
+		</div>
+	</div>
+
+
+	<!-- START SITE MAP -->
+	<section id="site-map">
+		<div class="container">
+			<div class="row">
+				<!-- START ABOUT -->
+				<div class="about-blog item col-lg-3 col-md-3 col-sm-6 col-xs-12">
+					<h3>About Blog</h3>
+					<p>
+						Lorem ipsum dolor sit amet, conser adipisicing  esse cillum dolore nulla pariatur. 
+					</p>
+					<div class="img">
+						<img src="" alt="">
+						<span class="authograph">
+							Nathaliya Jhone
+						</span>
+					</div>
+				</div>
+				<!-- END ABOUT -->
+
+				<!-- START TWEETS -->
+				<div class="latest-news item col-lg-3 col-md-3 col-sm-6 col-xs-12">
+					<h3>latest tweets</h3>
+					
+					<div class="latest-news-post footer-post">
+						<h4>
+							<i class="fab fa-twitter"></i>
+							@Twitter@magicalrebekah
+						</h4>	
+						<p>
+							Developer Advocate @heyval isaiyou knows the very well is about things .
+						</p>
+					</div>
+
+					<div class="latest-news-post footer-post">
+						<h4>
+							<i class="fab fa-twitter"></i>
+							@Twitter@magicalrebekah
+						</h4>	
+						<p>
+							Developer Advocate @heyval isaiyou knows the very well is about things .
+						</p>
+					</div>
+				</div>
+				<!-- END TWEETS -->
+
+				<!-- START INSTAGRAM -->
+				<div class="latest-news item col-lg-3 col-md-3 col-sm-6 col-xs-12">
+					<h3>Follow me instagram</h3>
+					
+					<div class="instagram">
+						<div class="instagram-img">
+							<img src="" alt="">
+						</div>
+						<div class="instagram-img">
+							<img src="" alt="">
+						</div>
+						<div class="instagram-img">
+							<img src="" alt="">
+						</div>
+						<div class="instagram-img">
+							<img src="" alt="">
+						</div>
+						<div class="instagram-img">
+							<img src="" alt="">
+						</div>
+						<div class="instagram-img">
+							<img src="" alt="">
+						</div>
+					</div>
+				</div>
+				<!-- END INSTAGRAM -->
+				
+				<!-- START COMMENTS  -->
+				<div class="latest-news item col-lg-3 col-md-3 col-sm-6 col-xs-12">
+					<h3>latest comments</h3>
+					
+					<div class="latest-news-post footer-post">
+						<h4>
+							From Alex :
+						</h4>	
+						<p>
+							Developer Advocate @heyval isaiyou know the very well is talking about things .
+						</p>
+					</div>
+
+					<div class="latest-news-post footer-post">
+						<h4>
+							From Jhon Doe :
+						</h4>	
+						<p>
+							Developer Advocate @heyval isaiyou know the very well is talking about things .
+						</p>
+					</div>
+				</div>
+				<!-- END COMMENTS -->
+			</div>
+		</div>
+	</section>
+	<!-- END SITE MAP -->		
+	
+	<!-- START FOOTER -->
+	<footer id="footer">
+		<div class="container">
+			<div class="row center-xs middle-xs">
+				<div class="col-xs-12 middle-xs center-xs">
+					@2015 copyright .all right reserved by awesome theme   i   terms policy   i   disclaimer
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- END FOOTER -->
+
+<script src="js/main.js"></script>
+</body>
+</html>
